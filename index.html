@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Loja misteriosa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="imagem de uma cidade movimentada ao anoitecer">
+            <p>É uma noite comum, e você está andando pelas ruas da cidade depois de um longo dia. De repente, vê uma loja pequena e discreta que nunca tinha notado antes. As luzes piscam e há uma placa que diz: "Entre para descobrir o inesperado." Você fica curioso. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na loja misteriosa</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar e continuar andando</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você decide entrar na loja. O ambiente é estranho, cheio de objetos antigos e curiosos. Um senhor com um olhar enigmático te cumprimenta e pergunta: "O que você busca, viajante do destino?" O que você responde?</p>
+            <button class="btn-proximo" data-proximo="3">"Estou procurando algo mágico."</button>
+            <button class="btn-proximo" data-proximo="4">"Só estou explorando, não procuro nada específico."</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Você decide ignorar a loja e continua caminhando. Mas enquanto anda, sente uma estranha sensação de arrependimento. E se aquele lugar tivesse algo único? Você começa a pensar se deveria voltar. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Voltar para a loja</button>
+            <button class="btn-proximo" data-proximo="5">Continuar andando sem olhar para trás</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>O senhor sorri e diz: "Ah, magia... sempre uma escolha interessante." Ele te leva até uma prateleira com livros antigos e um deles parece brilhar levemente. "Esse é para você", diz ele. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="6">Pegar o livro e abri-lo</button>
+            <button class="btn-proximo" data-proximo="7">Recusar e sair da loja</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <p>"Explorar pode ser a chave para encontrar o inesperado", responde o senhor. Ele te oferece um objeto coberto por um pano vermelho. "Quer ver o que está por trás disso?" O que você faz?</p>
+            <button class="btn-proximo" data-proximo="8">Aceitar e olhar o que está sob o pano</button>
+            <button class="btn-proximo" data-proximo="7">Recusar educadamente e sair da loja</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Você decide continuar andando. Enquanto caminha pelas ruas, vê um gato preto que parece estar te seguindo. Ele para na sua frente e mia, como se quisesse te mostrar algo. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o gato</button>
+            <button class="btn-proximo" data-proximo="10">Ignorar o gato e continuar seu caminho</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Você abre o livro e, de repente, uma luz brilhante envolve você. O ambiente ao seu redor muda, e você se vê em um mundo mágico cheio de criaturas fantásticas e paisagens deslumbrantes. Sua aventura começa agora!</p>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Você decide que isso não é para você e sai da loja. No entanto, ao caminhar pela cidade, percebe que as luzes da loja apagaram e ela desapareceu como se nunca tivesse existido. O mistério continua a te assombrar.</p>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Você retira o pano, revelando uma antiga bússola de aparência desgastada. O senhor explica: "Essa bússola só aponta para o que você mais deseja, mas nem sempre o caminho é fácil." O que você faz?</p>
+            <button class="btn-proximo" data-proximo="11">Aceitar a bússola e segui-la</button>
+            <button class="btn-proximo" data-proximo="7">Agradecer e sair da loja</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <p>Você decide seguir o gato. Ele te guia até uma rua pequena e escura, onde você encontra uma porta secreta com uma inscrição estranha. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="12">Abrir a porta e entrar</button>
+            <button class="btn-proximo" data-proximo="7">Decidir que é melhor não se envolver e voltar para casa</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <p>Você ignora o gato e continua seu caminho. Mas, de repente, sente uma sensação estranha de estar sendo observado. A cidade parece diferente, mais misteriosa do que antes. Talvez você tenha perdido uma oportunidade única.</p>
+        </div>
+        
+        <div class="passo" id="passo-11">
+            <p>Seguindo a bússola, você começa uma jornada incrível por lugares que nunca imaginou existir. Ela te leva a desafios, mas também a grandes descobertas. Parece que sua vida nunca mais será a mesma!</p>
+        </div>
+        
+        <div class="passo" id="passo-12">
+            <p>Ao abrir a porta, você se encontra em um lugar completamente diferente, cheio de objetos antigos e brilhantes, como se fosse um depósito de tesouros esquecidos. O que você irá descobrir aqui?</p>
+        </div>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
